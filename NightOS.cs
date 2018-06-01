@@ -620,6 +620,14 @@ namespace CratorOSUbuntu
                 //Opening File
                 if (ToDo == "2")
                 {
+                  Console.WriteLine("FILES IN DIRECTORY");
+                  Console.WriteLine("___________________");
+                  string[] fileInDirectory = Directory.GetFiles(@"ToDoLists/", "*.txt");
+                    foreach (string displayFilesInDirectory in fileInDirectory)
+                    {
+                        Console.WriteLine(displayFilesInDirectory);
+                    }
+                  
                     Console.Write("What is the file you wish to Open?: ");
                     string filewished = Console.ReadLine();
                     //Checking for file existing
@@ -643,7 +651,7 @@ namespace CratorOSUbuntu
                 }
                 if (ToDo == "3")
                 {
-                    Console.WriteLine("FILES IN DIRECTORY");
+                  Console.WriteLine("FILES IN DIRECTORY");
                   Console.WriteLine("___________________");
                   string[] fileInDirectory = Directory.GetFiles(@"ToDoLists/", "*.txt");
                     foreach (string displayFilesInDirectory in fileInDirectory)
@@ -754,6 +762,13 @@ namespace CratorOSUbuntu
               //Opening File
               if (ToDo == "2")
               {
+                Console.WriteLine("FILES IN DIRECTORY");
+                Console.WriteLine("___________________");
+                string[] fileInDirectory = Directory.GetFiles(@"TextFiles/", "*.txt");
+                  foreach (string displayFilesInDirectory in fileInDirectory)
+                  {
+                      Console.WriteLine(displayFilesInDirectory);
+                  }
                   Console.Write("What is the file you wish to Open?: ");
                   string filewished = Console.ReadLine();
                   //Checking for file existing
