@@ -1,5 +1,5 @@
 # CratorOSUbuntu
-An OS that will evolve over time and become a GUI.
+An OS that will evolve over time and become a GUI. Anyone who would like to help please do so.
 
 
 # How To run it:
