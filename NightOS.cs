@@ -845,7 +845,7 @@ namespace CratorOSUbuntu
                 Console.Write("Please Enter A Digit Between 1 And 10: ");
                 //User Input for the number they Choose
                 string userAnswerInput = Console.ReadLine();
-                float userAnswerInputInt = .Parse(userAnswerInput);
+                float userAnswerInputInt = float.Parse(userAnswerInput);
                 //Result of being right!
                 if (userAnswerInputInt == randomNumber)
                 {
