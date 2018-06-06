@@ -574,6 +574,14 @@ namespace CratorOSUbuntu
               Console.WriteLine("text - (Allows User To Write A Program From The Console");
               Console.WriteLine("files - (Allows You To Check Your Projects In The Crator Directory");
            }
+           //Commands being made in progress(Dont touch.)
+            // if(userCommand.StartsWith("Make")){
+            //  if(userCommand.contains("Background")){
+              
+            //   }
+             
+             
+            //  }
 
             }
 
