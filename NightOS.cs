@@ -841,11 +841,11 @@ namespace CratorOSUbuntu
                 Console.WriteLine("Welcome To The Number Game!\nThe Objective Is To Guess The Number Between 1 And 10");
                 Console.WriteLine("Answer The Question Correctly To Win!");
                 Random randomDigit1 = new Random();
-                int randomNumber = randomDigit1.Next(1, 11);
+                float randomNumber = randomDigit1.Next(1, 11);
                 Console.Write("Please Enter A Digit Between 1 And 10: ");
                 //User Input for the number they Choose
                 string userAnswerInput = Console.ReadLine();
-                int userAnswerInputInt = int.Parse(userAnswerInput);
+                float userAnswerInputInt = .Parse(userAnswerInput);
                 //Result of being right!
                 if (userAnswerInputInt == randomNumber)
                 {
